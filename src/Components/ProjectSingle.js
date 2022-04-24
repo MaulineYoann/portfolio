@@ -10,12 +10,12 @@ export const ProjectSingle = ({ project }) => {
     <section className="projectSingle">
       <img
         src={project.image}
-        max-height={320}
-        max-width={320}
+        max-height={350}
+        max-width={350}
         alt={project.name}
       />
       <div className="infoProject">
-        <h4>{project.techno}</h4>
+        <p className='techno'>{project.techno}</p>
         <p className="desc">{project.description}</p>
       </div>
       <div className="containButton">

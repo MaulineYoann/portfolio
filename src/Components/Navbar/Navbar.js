@@ -1,53 +1,87 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { Link } from 'react-router-dom'
-import logo from '../../assets/logo2.png'
-import './Navbar.scss'
-
+import logo from '../../assets/logo2.png';
+import { HashLink } from 'react-router-hash-link';
+import './Navbar.scss';
 
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   const handleShowNav = () => setShowNav(!showNav);
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+  };
 
   return (
     <header className="header">
       <nav>
-        <img src={logo} alt="logo" height={100} width={100} />
+        <HashLink smooth to="#home" scroll={(el) => scrollWithOffset(el)}>
+          <img src={logo} alt="logo" height={100} width={100} />
+        </HashLink>
         <ul className="box-contain">
-          <Link to="/" className="items">
+          <HashLink
+            smooth
+            to="#home"
+            scroll={(el) => scrollWithOffset(el)}
+            className="items"
+          >
             Acceuil
-          </Link>
-          <Link className="items" to="#about">
+          </HashLink>
+          <HashLink
+            smooth
+            to="#about"
+            scroll={(el) => scrollWithOffset(el)}
+            className="items"
+          >
             A propos
-          </Link>
-          <Link to="#project" className="items">
+          </HashLink>
+          <HashLink
+            smooth
+            to="#project"
+            scroll={(el) => scrollWithOffset(el)}
+            className="items"
+          >
             Projets
-          </Link>
-          <Link className="items" to="#contact">
+          </HashLink>
+          <HashLink
+            smooth
+            to="#contact"
+            scroll={(el) => scrollWithOffset(el)}
+            className="items"
+          >
             Contact
-          </Link>
+          </HashLink>
         </ul>
-        <div onClick={handleShowNav} className='burger'>
+        <div onClick={handleShowNav} className="burger">
           <div className="cssBurger"></div>
-          <GiHamburgerMenu className="burgerIcon "/>
+          <GiHamburgerMenu className="burgerIcon " />
         </div>
       </nav>
       {showNav && (
         <section className="sideNav">
           <ul>
-            <Link to="/">
+            <HashLink smooth to="/#home" scroll={(el) => scrollWithOffset(el)}>
               <a onClick={handleShowNav}> Acceuil</a>
-            </Link>
-            <Link to="#about">
+            </HashLink>
+            <HashLink smooth to="#about" scroll={(el) => scrollWithOffset(el)}>
               <a onClick={handleShowNav}>A Propos</a>
-            </Link>
-            <Link to="#project">
+            </HashLink>
+            <HashLink
+              smooth
+              to="#project"
+              scroll={(el) => scrollWithOffset(el)}
+            >
               <a onClick={handleShowNav}>Project</a>
-            </Link>
-            <Link to="#contact">
+            </HashLink>
+            <HashLink
+              smooth
+              to="#contact"
+              scroll={(el) => scrollWithOffset(el)}
+            >
               <a onClick={handleShowNav}>Contact</a>
-            </Link>
+            </HashLink>
           </ul>
         </section>
       )}
