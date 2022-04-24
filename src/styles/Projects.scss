@@ -1,0 +1,54 @@
+.projects {
+  padding: 0px 0 100px 0;
+  h1 {
+    margin-top: 20px;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-bottom: 70px;
+    &::first-letter {
+      color: #0077b6;
+      font-size: 4rem;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 10px;
+      background-color: #0077b6;
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 70px;
+    font-weight: 500;
+    span {
+      a {
+        color: #0077b6;
+        font-size: 1.7rem;
+        transition: 300ms;
+        &:hover {
+          color: #52b788;
+        }
+      }
+    }
+  }
+  .containProject {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+}
