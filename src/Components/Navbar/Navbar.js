@@ -27,7 +27,7 @@ export default function Navbar() {
             scroll={(el) => scrollWithOffset(el)}
             className="items"
           >
-            accueil
+            Accueil
           </HashLink>
           <HashLink
             smooth
@@ -63,7 +63,7 @@ export default function Navbar() {
         <section className="sideNav">
           <ul>
             <HashLink smooth to="/#home" scroll={(el) => scrollWithOffset(el)}>
-              <a onClick={handleShowNav}> accueil</a>
+              <a onClick={handleShowNav}> Accueil</a>
             </HashLink>
             <HashLink smooth to="#about" scroll={(el) => scrollWithOffset(el)}>
               <a onClick={handleShowNav}>A Propos</a>
