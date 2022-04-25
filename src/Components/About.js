@@ -19,7 +19,7 @@ const About = () => {
         <aside className="presentation">
           <h2>Qui suis-je </h2>
           <p>
-            <span>Passionné d'informatique</span> et de programmation, il est assez naturel que je me suis reconvertisse dans ce domaine.
+            <span>Passionné d'informatique</span> et de programmation, il est assez naturel que je me reconvertisse dans ce domaine.
             <br />
             Aujourd'hui <span>développeur Front-end</span> je développe des
             sites, applications web et des solutions pour les entreprises.
