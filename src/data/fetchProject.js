@@ -3,7 +3,7 @@ import movie from '../assets/movie.png'
 import pizza from '../assets/pizza.png'
 import ludus from '../assets/ludus.png'
 import morpion from '../assets/morpion.png'
-
+import crypto from '../assets/crypto.png'
 
 export const projectDetail = [
     {
@@ -45,5 +45,13 @@ export const projectDetail = [
         image: morpion,
         web: 'https://maulineyoann.github.io/jeuDuMorpion',
         github: 'https://github.com/MaulineYoann/jeuDuMorpion' 
+    },
+    {
+        name: 'Crypto Currency',
+        description: `Depuis une API externe le projet récupere les donnés et les affiche les devises à l'aide d'un filtre dynamique`,
+        techno: 'React',
+        image: crypto,
+        web: 'https://cryptocurrency-dev.netlify.app',
+        github: 'https://github.com/MaulineYoann/Cypto-app'
     }
 ];
