@@ -1,7 +1,6 @@
 
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
-import Button from './Button';
 import '../styles/ProjectSingle.scss'
 
 export const ProjectSingle = ({ project }) => {

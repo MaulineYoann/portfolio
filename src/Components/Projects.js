@@ -10,7 +10,7 @@ const Projects = () => {
     <section className="projects">
       <h1>Projets</h1>
       <p>
-        Voici une sélection de certains de mes réalisations personnelles. D'autres sont
+        Voici une sélection de certaines de mes réalisations personnelles. D'autres
         sont mis à disposition sur{' '}
         <span>
           <a href="https://github.com/MaulineYoann" target="_blank">
