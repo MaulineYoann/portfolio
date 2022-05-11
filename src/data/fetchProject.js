@@ -2,6 +2,7 @@ import sneaker from '../assets/sneakers.jpg'
 import movie from '../assets/movie.png'
 import pizza from '../assets/pizza.png'
 import ludus from '../assets/ludus.png'
+import morpion from '../assets/morpion.png'
 
 
 export const projectDetail = [
@@ -36,5 +37,13 @@ export const projectDetail = [
         image: ludus,
         web: 'https://lugus-findus-chevalus.netlify.app/',
         github: 'https://github.com/BenSbnt/Les-Esclavagistes'
+    },
+    {
+        name: 'Morpion',
+        description: 'jeux du morpion',
+        techno: 'JavaScript',
+        image: morpion,
+        web: 'https://maulineyoann.github.io/jeuDuMorpion',
+        github: 'https://github.com/MaulineYoann/jeuDuMorpion' 
     }
 ];
