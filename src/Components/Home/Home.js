@@ -3,7 +3,6 @@ import './Home.scss';
 import profil from '../../assets/profil.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
-import Button from '../Button';
 
 function Home() {
   return (
@@ -44,11 +43,6 @@ function Home() {
             <FaGithub className="link" />
           </a>
         </p>
-
-        {/* <a href={CV} download={CV}>
-          mon cv
-          <Button name="Mon CV" className={styles.buttonEmpty} />
-        </a> */}
       </div>
       <div className="imageContain">
         <img 
