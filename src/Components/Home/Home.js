@@ -3,17 +3,14 @@ import './Home.scss';
 import profil from '../../assets/profil.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
-// eslint-disable-next-line no-unused-vars
 import Button from '../Button';
-
 
 function Home() {
   return (
     <hero className="home">
       <div className="containTitle">
         <h1 className="title">
-          Bienvenue, <br /> je suis{' '}
-          <span className="name">Yoann Mauline</span>
+          Bienvenue, <br /> je suis <span className="name">Yoann Mauline</span>
           <br />
           {
             <Typewriter
@@ -54,7 +51,13 @@ function Home() {
         </a> */}
       </div>
       <div className="imageContain">
-        <img src={profil} width={400} height={400} alt="profil" />
+        <img 
+        className='profil'
+        src={profil} 
+        width={400} 
+        height={400} 
+        alt="profil" 
+        />
       </div>
     </hero>
   );

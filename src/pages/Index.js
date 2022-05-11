@@ -9,13 +9,13 @@ export default function index() {
   return (
     <div className="container" id='home'>
         <Home />
-        <div id='about'>
+        <div id='about' >
           <About />
         </div>
-        <div id="project">
+        <div id="project" >
           <Projects />
         </div>
-        <div id="contact">
+        <div id="contact" >
           <Contact />
         </div>
     </div>
