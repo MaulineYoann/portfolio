@@ -25,7 +25,7 @@ function Home() {
             />
           }
         </h1>
-        <p>passionné de technologies.</p>
+        <p>Passionné de sport et programmation.</p>
         <p className="useful">
           Liens utiles:
           <a

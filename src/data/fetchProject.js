@@ -3,12 +3,14 @@ import movie from '../assets/movie.png'
 import pizza from '../assets/pizza.png'
 import ludus from '../assets/ludus.png'
 import morpion from '../assets/morpion.png'
+
 import crypto from '../assets/crypto.png'
+
 
 export const projectDetail = [
     {
         name: 'Sneakers Addict',
-        description: `Réalisation d'un site e-commerce développer pour les amoureux de sneakers.`,
+        description: `Réalisation d'un site e-commerce récupérant ses données depuis une API.`,
         techno: 'React',
         image: sneaker,
         web: 'https://sneakers-addict-a8f97.web.app/',
@@ -16,7 +18,7 @@ export const projectDetail = [
     },
     {
         name: 'DevFlix',
-        description: `site web type 'netflix qui trie et affiche une liste de film et série en récupérant les donnés depuis une API.`,
+        description: `Site web type 'netflix' qui trie et affiche une liste de film et série en récupérant les donnés depuis une API.`,
         techno: 'React',
         image: movie,
         web: 'https://wild-movie.netlify.app/',
