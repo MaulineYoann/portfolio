@@ -96,7 +96,6 @@ const Contact = () => {
           <input type="submit" value="Envoyer" className="submit" />
         </form>
       </aside>
-      {/* <button onClick={() => setShowModal(true)}>test Modal</button> */}
       {
         showModal && <Modal setShowModal={setShowModal}/>
       }

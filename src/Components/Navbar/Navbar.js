@@ -21,38 +21,46 @@ export default function Navbar() {
           <img src={logo} alt="logo" height={100} width={100} />
         </HashLink>
         <ul className="box-contain">
-          <HashLink
-            smooth
-            to="#home"
-            scroll={(el) => scrollWithOffset(el)}
-            className="items"
-          >
-            Accueil
-          </HashLink>
-          <HashLink
-            smooth
-            to="#about"
-            scroll={(el) => scrollWithOffset(el)}
-            className="items"
-          >
-            A propos
-          </HashLink>
-          <HashLink
-            smooth
-            to="#project"
-            scroll={(el) => scrollWithOffset(el)}
-            className="items"
-          >
-            Projets
-          </HashLink>
-          <HashLink
-            smooth
-            to="#contact"
-            scroll={(el) => scrollWithOffset(el)}
-            className="items"
-          >
-            Contact
-          </HashLink>
+          <li>
+            <HashLink
+              smooth
+              to="#home"
+              scroll={(el) => scrollWithOffset(el)}
+              className="items"
+            >
+              Accueil
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              smooth
+              to="#about"
+              scroll={(el) => scrollWithOffset(el)}
+              className="items"
+            >
+              A propos
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              smooth
+              to="#project"
+              scroll={(el) => scrollWithOffset(el)}
+              className="items"
+            >
+              Projets
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              smooth
+              to="#contact"
+              scroll={(el) => scrollWithOffset(el)}
+              className="items"
+            >
+              Contact
+            </HashLink>
+          </li>
         </ul>
         <div onClick={handleShowNav} className="burger">
           <div className="cssBurger"></div>
