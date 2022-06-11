@@ -39,7 +39,7 @@ export const projectDetail = [
     },
     {
         name: 'Morpion',
-        description: 'jeux du morpion',
+        description: 'jeux du morpion. Enjoy :)',
         techno: 'JavaScript',
         image: morpion,
         web: 'https://maulineyoann.github.io/jeuDuMorpion',
