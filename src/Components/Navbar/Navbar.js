@@ -8,6 +8,7 @@ import './Navbar.scss';
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   const handleShowNav = () => setShowNav(!showNav);
+  
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -100;
