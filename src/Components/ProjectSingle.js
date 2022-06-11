@@ -10,8 +10,8 @@ export const ProjectSingle = ({ project }) => {
       <img
         className="projectImg"
         src={project.image}
-        max-height={350}
-        max-width={350}
+        // max-height={350}
+        // max-width={350}
         alt={project.name}
       />
       <div className="infoProject">

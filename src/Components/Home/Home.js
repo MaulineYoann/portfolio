@@ -5,6 +5,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
 function Home() {
+  
   return (
     <hero className="home">
       <div className="containTitle">

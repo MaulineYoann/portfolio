@@ -1,5 +1,6 @@
 .projectSingle {
   max-width: 400px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -9,9 +10,11 @@
   box-shadow: 7px 8px 10px #cccccc;
   img {
     object-fit: cover;
-   
+    height: 350px;
+    height: 350px;
   }
   .infoProject {
+
     .techno {
       font-size: 1.6rem;
       font-weight: bold;
