@@ -1,8 +1,10 @@
-import sneaker from '../assets/sneakers.jpg'
-import movie from '../assets/movie.png'
-import pizza from '../assets/pizza.png'
-import ludus from '../assets/ludus.png'
-import morpion from '../assets/morpion.png'
+import sneaker from '../assets/sneakers.jpg';
+import movie from '../assets/movie.png';
+import pizza from '../assets/pizza.png';
+// import ludus from '../assets/ludus.png'
+import quizz from '../assets/quizz.png';
+import morpion from '../assets/morpion.png';
+
 
 export const projectDetail = [
     {
@@ -30,12 +32,12 @@ export const projectDetail = [
         github: 'https://github.com/MaulineYoann/Wild-pizza',
     },
     {
-        name: 'Ludus',
-        description: `Location de Gladiateurs: Hackaton de 24H réaliser durant un projet d'école sur le thême passé/futur. `,
-        techno: 'React',
-        image: ludus,
-        web: 'https://lugus-findus-chevalus.netlify.app/',
-        github: 'https://github.com/BenSbnt/Les-Esclavagistes'
+        name: 'Quizz',
+        description: `Jeux de Quizz sur le culture général réaliser en JavaScript `,
+        techno: 'JavaScript React',
+        image: quizz,
+        web: 'https://quizzzdev-app.netlify.app/',
+        github: 'https://github.com/MaulineYoann/React-quizz'
     },
     {
         name: 'Morpion',
