@@ -1,7 +1,6 @@
 import sneaker from '../assets/sneakers.jpg';
 import movie from '../assets/movie.png';
 import pizza from '../assets/pizza.png';
-// import ludus from '../assets/ludus.png'
 import quizz from '../assets/quizz.png';
 import morpion from '../assets/morpion.png';
 
