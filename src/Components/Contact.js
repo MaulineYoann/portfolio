@@ -19,8 +19,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      // emailjs.send('service_yof2avg', 'template_tn4tffp', form.current, 'zpjhzWCiG5JCfzIPc')
-      // send('service_yof2avg', 'template_tn4tffp', send, 'zpjhzWCiG5JCfzIPc')
       .sendForm(
         'service_yof2avg',
         'template_tn4tffp',
@@ -44,7 +42,7 @@ const Contact = () => {
       <aside className="form">
         <h1>Contact</h1>
         <p>
-          Un projet ? une mission ? N'hésitez pas à me contacter sur{' '}
+          Un projet ? une mission ? N'hésitez pas à me contacter sur <pre/>
           <span>
             <a
               href="https://www.linkedin.com/in/yoann-mauline/"

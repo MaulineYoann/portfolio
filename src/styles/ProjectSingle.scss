@@ -9,9 +9,12 @@
   background-color: #fff;
   box-shadow: 7px 8px 10px #cccccc;
   img {
+
     object-fit: cover;
     height: 350px;
     height: 350px;
+    object-fit: contain;
+
   }
   .infoProject {
 
