@@ -6,13 +6,17 @@ const Skills = ({ skill }) => {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 300ms;
+    &:hover {
+      color: #0077b6;
+    }
     img {
       height: 50px;
       width: 50px;
     }
     p {
       font-size: 18px;
-      font-weight: 600;    
+      font-weight: 600;
     }
   `;
   return (

@@ -1,5 +1,6 @@
 .projectSingle {
-  max-width: 400px;
+  width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -8,21 +9,24 @@
   background-color: #fff;
   box-shadow: 7px 8px 10px #cccccc;
   img {
+
+    object-fit: cover;
+    height: 350px;
+    height: 350px;
     object-fit: contain;
+
   }
   .infoProject {
-    // background-color: #fff;
+
     .techno {
       font-size: 1.6rem;
       font-weight: bold;
       color: #0077b6;
       text-align: center;
       text-transform: uppercase;
-      // border: 2px solid red;
       height: 15px;
     }
     .desc {
-      // border: 2px solid red;
       color: #000;
       font-weight: bold;
       padding: 0 25px 25px 25px;
@@ -39,7 +43,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
+      
       a {
         color: #fff;
         font-size: 1.4rem;
