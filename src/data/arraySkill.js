@@ -7,15 +7,16 @@ import node from '../assets/node.png'
 import react from '../assets/react.png'
 import sass from '../assets/sass.png'
 import next from '../assets/next.png'
+import tailwind from "../assets/tailwind.png"
 
 
 export const arraySkill = [
     {
-        name: 'Html',
+        name: "Html",
         logo: html
     },
     {
-        name: 'css',
+        name: 'Css',
         logo: css
     },
     {
@@ -37,6 +38,10 @@ export const arraySkill = [
     {
         name: 'Sass',
         logo: sass,
+    },
+    {
+        name: "Tailwind.css",
+        logo: tailwind
     },
     {
         name: 'Node.js',

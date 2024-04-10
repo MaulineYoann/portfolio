@@ -1,8 +1,9 @@
 import React from 'react';
 import './Home.scss';
 import profil from '../../assets/profil.png';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
+import IconComponent from '../Icon/IconComponent';
+import { links } from '../../assets/Link/Link';
 
 function Home() {
   
@@ -26,23 +27,10 @@ function Home() {
             />
           }
         </h1>
-        <p>Passionné de sport et programmation.</p>
         <p className="useful">
           Liens utiles:
-          <a
-            href="https://www.linkedin.com/in/yoann-mauline/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin className="link" />
-          </a>
-          <a
-            href="https://github.com/MaulineYoann"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub className="link" />
-          </a>
+          <IconComponent link={links.linkedin}/>
+          <IconComponent link={links.github} />
         </p>
       </div>
       <div className="imageContain">

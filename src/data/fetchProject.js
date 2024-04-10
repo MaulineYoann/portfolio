@@ -13,7 +13,7 @@ export const projectDetail = [
     {
         name: 'Sneakers Addict',
         description: `Réalisation d'un site e-commerce récupérant ses données depuis une API.`,
-        techno: 'React',
+        techno: 'React / JavaScript',
         image: sneaker,
         web: 'https://sneakers-addict-a8f97.web.app/',
         github: 'https://github.com/MaulineYoann/sneackers-addict'
@@ -21,7 +21,7 @@ export const projectDetail = [
     {
         name: 'DevFlix',
         description: `Site web type 'netflix' qui trie et affiche une liste de film et série en récupérant les donnés depuis une API.`,
-        techno: 'React',
+        techno: 'React / JavaScript',
         image: movie,
         web: 'https://wild-movie.netlify.app/',
         github: 'https://github.com/MaulineYoann/movie-app'
@@ -29,7 +29,7 @@ export const projectDetail = [
     {
         name: 'Wild Pizza',
         description: 'Landing page factice représentant une pizzeria et ses desserts.',
-        techno: 'Html/Css',
+        techno: 'Html / Css',
         image: pizza,
         web: 'https://wild-pizza.netlify.app/',
         github: 'https://github.com/MaulineYoann/Wild-pizza',
@@ -37,7 +37,7 @@ export const projectDetail = [
     {
         name: 'Quizz',
         description: `Jeux de Quizz sur le culture général réaliser en JavaScript `,
-        techno: 'JavaScript React',
+        techno: 'JavaScript / React',
         image: quizz,
         web: 'https://quizzzdev-app.netlify.app/',
         github: 'https://github.com/MaulineYoann/React-quizz'

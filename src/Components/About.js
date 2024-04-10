@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "../styles/About.scss";
-import Button from "./Button";
-import CV from "../assets/CV.pdf";
 import { arraySkill } from "../data/arraySkill";
 import Skills from "./Skills";
 
@@ -25,9 +23,6 @@ const About = () => {
             objectifs. Contactez-moi pour discuter de la façon dont nous pouvons
             collaborer pour réussir ensemble.
           </p>
-          <a href={CV} className="resume" download={CV}>
-            <Button name="Mon CV" />
-          </a>
         </aside>
         <aside className="skills">
           <h2>Compétences</h2>

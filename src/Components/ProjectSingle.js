@@ -17,19 +17,19 @@ export const ProjectSingle = ({ project }) => {
       <div className="infoProject">
         <p className="techno">
           Technologie utilisé:{' '}
-          <span className="language">{project.techno}</span>
+          <small className="language">{project.techno}</small>
         </p>
         <p className="desc">{project.description}</p>
       </div>
       <div className="containButton">
         <div className="containLink">
           <a href={project.github} target="_blank" rel="noreferrer">
-            <FaGithub className="icon" /> Github
+            <FaGithub className="icon" /> Code
           </a>
         </div>
         <div className="containLink">
           <a href={project.web} target="_blank" rel="noreferrer">
-            <FaGlobeAmericas className="icon" /> Site Web
+            <FaGlobeAmericas className="icon" /> Demo
           </a>
         </div>
       </div>

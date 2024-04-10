@@ -2,7 +2,7 @@
   height: 50px;
   text-decoration: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 8px 0 #212529;
   border: 1.5px solid #000;
   background-color: #0077b6;
@@ -13,7 +13,7 @@
   color: #fff;
   transition: 300ms;
   &:hover {
-    background-color:  #52b788 ;
+    transform: scale(1.1);
     color: #000;
   }
   &:focus {
