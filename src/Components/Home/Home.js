@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.scss';
 import profil from '../../assets/profil.png';
 import Typewriter from 'typewriter-effect';
-import IconComponent from '../Icon/IconComponent';
+import IconComponent from '../../assets/Icon/IconComponent';
 import { links } from '../../assets/Link/Link';
 
 function Home() {
